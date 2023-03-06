@@ -110,7 +110,7 @@ public class CURDdemo{
          }
 			}
 			if (!found)
-				System.out.println("The code was no present");
+				System.out.println("The code was not present");
 			else
 				System.out.println("Record Sussefully Updated.....!");
 			break;
