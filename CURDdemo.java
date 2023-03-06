@@ -42,7 +42,7 @@ public class CURDdemo{
 		    case 1:
 		    	System.out.print("Enter the employe code : ");
 		    	int eno=sc.nextInt();
-		    	System.out.print("Enter the name of employe : ");
+		    	System.out.print("Enter the name of a employe : ");
 		    	String ename=sc1.nextLine();
 		    	System.out.print("Enter the Salary of the person : ");
 		    	int salary=sc.nextInt();
