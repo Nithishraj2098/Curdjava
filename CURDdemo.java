@@ -40,11 +40,11 @@ public class CURDdemo{
            num=sc.nextInt();
            switch(num){
 		    case 1:
-		    	System.out.print("Enter the employe code : ");
+		    	System.out.print("Enter the employe code :- ");
 		    	int eno=sc.nextInt();
-		    	System.out.print("Enter the name of a employe : ");
+		    	System.out.print("Enter the name of a employe :- ");
 		    	String ename=sc1.nextLine();
-		    	System.out.print("Enter the Salary of the person : ");
+		    	System.out.print("Enter the Salary of the person :- ");
 		    	int salary=sc.nextInt();
 		    	c.add(new Empolye(eno,ename,salary));
 			break;
@@ -112,7 +112,7 @@ public class CURDdemo{
 			if (!found)
 				System.out.println("The code was not present");
 			else
-				System.out.println("Record Sussefully Updated.....!");
+				System.out.println("Record Sussefully updated.....!");
 			break;
 		}
 		}while(num!=0 && num<=5);		
